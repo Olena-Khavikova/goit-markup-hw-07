@@ -1,0 +1,33 @@
+.regular-clients {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.regular-clients__item {
+  margin-bottom: 0px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.regular-clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.regular-clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  background-color: $color-primary-bg;
+  border: 1px solid $color-icon-fill;
+  border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular-clients__link:hover {
+  border: 1px solid $color-accent;
+}
+.regular-clients__link:hover .icon {
+  fill: $color-accent;
+}

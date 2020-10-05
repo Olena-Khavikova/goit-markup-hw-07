@@ -1,0 +1,15 @@
+.footer-element {
+  width: calc((100% - 90px) / 4);
+  margin-right: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-element:nth-child(2) {
+  margin-right: 0px;
+}
+.page-footer__title {
+  margin-bottom: 20px;
+}
+.contacts-footer {
+  display: block;}
