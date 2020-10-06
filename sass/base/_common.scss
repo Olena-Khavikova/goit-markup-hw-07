@@ -41,6 +41,9 @@ img {
 }
 .icon {
   fill: $color-icon-fill;
+  .regular-clients__link:hover & {
+    fill: $color-accent;
+  }
 }
 
 .title {
@@ -51,7 +54,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 
 .address {
   margin-top: 20px;

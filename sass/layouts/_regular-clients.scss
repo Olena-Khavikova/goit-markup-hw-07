@@ -23,11 +23,11 @@
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border: 1px solid $color-accent;
+  }
 }
 
-.regular-clients__link:hover {
-  border: 1px solid $color-accent;
-}
 .regular-clients__link:hover .icon {
   fill: $color-accent;
 }
